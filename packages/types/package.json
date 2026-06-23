@@ -1,0 +1,18 @@
+{
+  "name": "@socialboost/types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types for SocialBoost platform",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "src/**/*"
+  ]
+}
