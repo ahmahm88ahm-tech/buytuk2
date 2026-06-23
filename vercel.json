@@ -5,20 +5,6 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "regions": ["iad1"],
-  "env": {
-    "NEXT_PUBLIC_API_URL": {
-      "description": "API URL for backend",
-      "value": "https://your-api-url.com"
-    },
-    "NEXTAUTH_URL": {
-      "description": "NextAuth URL",
-      "value": "https://your-vercel-domain.vercel.app"
-    },
-    "NEXTAUTH_SECRET": {
-      "description": "NextAuth Secret",
-      "value": ""
-    }
-  },
   "builds": [
     {
       "src": "apps/web/package.json",
