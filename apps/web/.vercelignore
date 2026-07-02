@@ -1,0 +1,9 @@
+apps/api
+apps/ai-engine
+packages
+node_modules
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
